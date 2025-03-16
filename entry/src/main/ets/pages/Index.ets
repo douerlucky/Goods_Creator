@@ -2,7 +2,7 @@ import creator_page from "../page_compolents/creator_page"
 import home_page from "../page_compolents/home_page"
 import image from '@ohos.multimedia.image'
 
-@Entry
+@Entry()
 @Component
 struct Index {
   @State page_index: number = 0 // 页面的下标

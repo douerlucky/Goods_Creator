@@ -1,0 +1,14 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Select_Creat",
+    "pages/choose_a_budget_specification",
+    "pages/choose_flash_bottom",
+    "pages/upload_picture",
+    "pages/Internet",
+    "pages/upload_test",
+    "pages/Server_Test",
+    "pages/show_image_test",
+    "pages/debug_room"
+  ]
+}

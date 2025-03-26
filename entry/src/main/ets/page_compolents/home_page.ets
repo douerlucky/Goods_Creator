@@ -10,7 +10,7 @@ struct home_page {
       {
         Button("debug room").onClick(()=>{
           router.pushUrl({
-            url:"pages/debug_room"
+            url:"pages/Debug_pages/debug_room"
           })
         })
         Search({placeholder:'搜索收藏'}).width('80%')

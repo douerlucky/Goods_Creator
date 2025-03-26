@@ -26,6 +26,7 @@ struct big_button {
   image_source: ResourceStr = ''
   title: string = '默认标题'
   desc: string = '默认描述'
+  push_router_url: string = ''
   build()
   {
     Row({space:15})
@@ -47,6 +48,11 @@ struct big_button {
     .padding(30)
     .borderRadius(32)
     .shadow(ShadowStyle.OUTER_DEFAULT_LG)
+    .onClick(()=>{
+      router.pushUrl({
+        url:this.push_router_url
+      })
+    })
   }
 }
 

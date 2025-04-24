@@ -1,16 +1,32 @@
 {
   "src": [
     "pages/Index",
-    "pages/Budget_Create_pages/Select_Creat",
-    "pages/Budget_Create_pages/choose_a_budget_specification",
-    "pages/Budget_Create_pages/choose_flash_bottom",
-    "pages/Budget_Create_pages/upload_picture",
+    "pages/Badge_Create_pages/Select_Creat",
+    "pages/Badge_Create_pages/choose_a_badge_specification",
+    "pages/Badge_Create_pages/choose_flash_bottom",
+    "pages/Badge_Create_pages/upload_picture",
+    "pages/Badge_Create_pages/choose_cover_film",
+    "pages/Badge_Create_pages/choose_interaction",
     "pages/Debug_pages/Internet",
     "pages/Debug_pages/upload_test",
     "pages/Debug_pages/Server_Test",
     "pages/Debug_pages/show_image_test",
     "pages/Debug_pages/debug_room",
     "pages/Debug_pages/image_to_oss",
-    "pages/Debug_pages/search_badge_test"
+    "pages/Debug_pages/search_badge_test",
+    "pages/Debug_pages/AI_image_painting_test",
+    "pages/account_etc/Login_in",
+    "pages/account_etc/Register",
+    "pages/account_etc/user_info",
+    "pages/account_etc/user_info_edit",
+    "pages/Badge_Create_pages/image_edit",
+    "pages/Badge_Create_pages/completed",
+    "pages/Debug_pages/edit_page",
+    "pages/Debug_pages/download_img_test",
+    "pages/Debug_pages/croppage_test",
+    "pages/Badge_Create_pages/crop_image",
+    "pages/Debug_pages/lyric_test",
+    "pages/badgeMannage/badgeDetails",
+    "pages/Debug_pages/new_upload_test"
   ]
 }

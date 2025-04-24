@@ -2,11 +2,18 @@ import creator_page from "../page_compolents/creator_page"
 import home_page from "../page_compolents/home_page"
 import image from '@ohos.multimedia.image'
 
+PersistentStorage.persistProp('uid','')
+
 @Entry()
 @Component
 struct Index {
-  @State page_index: number = 0 // 页面的下标
+  @StorageLink('uid') uid:string = ''
 
+  @State page_index: number = 0 // 页面的下标
+  onBackPress(): boolean {
+    // 返回 true 表示拦截返回事件，阻止默认行为
+    return true;
+  }
   @Builder
   tab_style(page_index: number, unselected: ResourceStr, selected: ResourceStr, title: string) {
     Stack() {
@@ -60,7 +67,7 @@ struct Index {
 
           TabContent() {
             Text("4")
-          }.tabBar(this.tab_style(3, $r("app.media.user_icon_unhighlight"), $r("app.media.user_icon_highlight"), "个人"))
+          }.tabBar(this.tab_style(3, $r("app.media.realizasion_unhighlight"), $r("app.media.realization_highlight"), "实物化"))
         }
         .onChange((index: number) => {
           this.page_index = index
